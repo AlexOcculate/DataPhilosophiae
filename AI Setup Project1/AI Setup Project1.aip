@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT Type="Advanced Installer" CreateVersion="14.5.2" version="14.5.2" Modules="professional" RootPath="." Language="en" Id="{3E6B2C7F-3F40-4506-9E0F-551A2538E17A}">
+  <COMPONENT cid="caphyon.advinst.msicomp.ProjectOptionsComponent">
+    <ROW Name="HiddenItems" Value="AppXAppDetailsComponent;AppXCapabilitiesComponent;AppXDependenciesComponent;AppXProductDetailsComponent;AppXVisualAssetsComponent;AppXAppDeclarationsComponent;AppXUriRulesComponent"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiPropsComponent">
+    <ROW Property="AI_BITMAP_DISPLAY_MODE" Value="0"/>
+    <ROW Property="AI_CF_FrameBottomLeft" Value="frame_bottom_left.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameBottomLeftInactive" Value="frame_bottom_left_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameBottomMid" Value="frame_bottom_mid.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameBottomMidInactive" Value="frame_bottom_mid_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameBottomRight" Value="frame_bottom_right.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameBottomRightInactive" Value="frame_bottom_right_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameCaption" Value="frame_caption.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameCaptionInactive" Value="frame_caption_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameLeft" Value="frame_left.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameLeftInactive" Value="frame_left_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameRight" Value="frame_right.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameRightInactive" Value="frame_right_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameTopLeft" Value="frame_top_left.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameTopLeftInactive" Value="frame_top_left_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameTopMid" Value="frame_top_mid.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameTopMidInactive" Value="frame_top_mid_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameTopRight" Value="frame_top_right.bmp" Type="1"/>
+    <ROW Property="AI_CF_FrameTopRightInactive" Value="frame_top_right_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysCloseDown" Value="sys_close_down.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysCloseHot" Value="sys_close_hot.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysCloseInactive" Value="sys_close_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysCloseNormal" Value="sys_close_normal.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysMinDown" Value="sys_min_down.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysMinHot" Value="sys_min_hot.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysMinInactive" Value="sys_min_inactive.bmp" Type="1"/>
+    <ROW Property="AI_CF_SysMinNormal" Value="sys_min_normal.bmp" Type="1"/>
+    <ROW Property="AI_CF_TYPE" Value="0" MultiBuildValue="DefaultBuild:1" Type="4"/>
+    <ROW Property="AI_FrameBtns" Value="default" MultiBuildValue="DefaultBuild:red" MsiKey="AI_FrameBtns"/>
+    <ROW Property="AI_FrameColor" Value="lightslategray" MultiBuildValue="DefaultBuild:chrome" MsiKey="AI_FrameColor"/>
+    <ROW Property="AI_ImagesColor" Value="powderblue" MultiBuildValue="DefaultBuild:chrome" MsiKey="AI_ImagesColor"/>
+    <ROW Property="AI_PREDEF_LCONDS_PROPS" Value="AI_DETECTED_INTERNET_CONNECTION"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Core.exe.config" Value="..\Core\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Core.exe_1" Value="..\Core\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_Core.exe_2" Value="..\Core\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DataPullerManager.exe" Value="..\DataPullerManager\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DataPullerManager.exe.config" Value="..\DataPullerManager\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DataPullerService.exe" Value="..\DataPullerService\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DataPullerService.exe.config" Value="..\DataPullerService\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DataPullerService.exe_1" Value="..\DataPullerService\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Data.v17.2.dll_1" Value="..\packages\DevExpress.Data.17.2.4\lib\net40"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Data.v17.2.dll_2" Value="..\packages\DevExpress.Data.17.2.4\lib\net40"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Xpo.v17.2.dll_1" Value="..\packages\DevExpress.Xpo.17.2.4\lib\net40"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Xpo.v17.2.dll_2" Value="..\packages\DevExpress.Xpo.17.2.4\lib\net40"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_EntityFramework.SqlServer.dll" Value="..\packages\EntityFramework.6.0.0\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_EntityFramework.SqlServer.dll_1" Value="..\packages\EntityFramework.6.0.0\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_EntityFramework.SqlServer.dll_2" Value="..\packages\EntityFramework.6.0.0\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_EntityFramework.SqlServer.dll_3" Value="..\packages\EntityFramework.6.0.0\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_EntityFramework.dll" Value="..\packages\EntityFramework.6.0.0\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_EntityFramework.dll_1" Value="..\packages\EntityFramework.6.0.0\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_EntityFramework.dll_2" Value="..\packages\EntityFramework.6.0.0\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_EntityFramework.dll_3" Value="..\packages\EntityFramework.6.0.0\lib\net45"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.ComponentModel.Annotations.dll_1" Value="..\packages\System.ComponentModel.Annotations.4.4.1\lib\net461"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.ComponentModel.Annotations.dll_2" Value="..\packages\System.ComponentModel.Annotations.4.4.1\lib\net461"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.EF6.dll" Value="..\packages\System.Data.SQLite.EF6.1.0.106.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.EF6.dll_1" Value="..\packages\System.Data.SQLite.EF6.1.0.106.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.EF6.dll_2" Value="..\packages\System.Data.SQLite.EF6.1.0.106.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.EF6.dll_3" Value="..\packages\System.Data.SQLite.EF6.1.0.106.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.Linq.dll" Value="..\packages\System.Data.SQLite.Linq.1.0.106.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.Linq.dll_1" Value="..\packages\System.Data.SQLite.Linq.1.0.106.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.Linq.dll_2" Value="..\packages\System.Data.SQLite.Linq.1.0.106.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.Linq.dll_3" Value="..\packages\System.Data.SQLite.Linq.1.0.106.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.dll" Value="..\packages\System.Data.SQLite.Core.1.0.106.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.dll_1" Value="..\packages\System.Data.SQLite.Core.1.0.106.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.dll_2" Value="..\packages\System.Data.SQLite.Core.1.0.106.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.dll_3" Value="..\packages\System.Data.SQLite.Core.1.0.106.0\lib\net46"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WindowsServiceTestShell.exe" Value="..\WindowsServiceTestShell\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WindowsServiceTestShell.exe.config" Value="..\WindowsServiceTestShell\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WindowsServiceTestShellManager.exe" Value="..\WindowsServiceTestShellManager\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_WindowsServiceTestShellManager.exe.config" Value="..\WindowsServiceTestShellManager\bin\Debug"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Core.exe.config" Value="Core.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Core.exe_1" Value="Core.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Core.exe_2" Value="Core.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DataPullerManager.exe" Value="DataPullerManager.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DataPullerManager.exe.config" Value="DataPullerManager.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DataPullerService.exe" Value="DataPullerService.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DataPullerService.exe.config" Value="DataPullerService.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DataPullerService.exe_1" Value="DataPullerService.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Data.v17.2.dll_1" Value="DevExpress.Data.v17.2.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Data.v17.2.dll_2" Value="DevExpress.Data.v17.2.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Xpo.v17.2.dll_1" Value="DevExpress.Xpo.v17.2.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Xpo.v17.2.dll_2" Value="DevExpress.Xpo.v17.2.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.SqlServer.dll" Value="EntityFramework.SqlServer.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.SqlServer.dll_1" Value="EntityFramework.SqlServer.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.SqlServer.dll_2" Value="EntityFramework.SqlServer.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.SqlServer.dll_3" Value="EntityFramework.SqlServer.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.dll" Value="EntityFramework.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.dll_1" Value="EntityFramework.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.dll_2" Value="EntityFramework.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.dll_3" Value="EntityFramework.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.ComponentModel.Annotations.dll_1" Value="System.ComponentModel.Annotations.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.ComponentModel.Annotations.dll_2" Value="System.ComponentModel.Annotations.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.EF6.dll" Value="System.Data.SQLite.EF6.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.EF6.dll_1" Value="System.Data.SQLite.EF6.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.EF6.dll_2" Value="System.Data.SQLite.EF6.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.EF6.dll_3" Value="System.Data.SQLite.EF6.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.Linq.dll" Value="System.Data.SQLite.Linq.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.Linq.dll_1" Value="System.Data.SQLite.Linq.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.Linq.dll_2" Value="System.Data.SQLite.Linq.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.Linq.dll_3" Value="System.Data.SQLite.Linq.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.dll" Value="System.Data.SQLite.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.dll_1" Value="System.Data.SQLite.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.dll_2" Value="System.Data.SQLite.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.dll_3" Value="System.Data.SQLite.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_WindowsServiceTestShell.exe" Value="WindowsServiceTestShell.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_WindowsServiceTestShell.exe.config" Value="WindowsServiceTestShell.exe.config"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_WindowsServiceTestShellManager.exe" Value="WindowsServiceTestShellManager.exe"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_WindowsServiceTestShellManager.exe.config" Value="WindowsServiceTestShellManager.exe.config"/>
+    <ROW Property="AI_SecondColor" Value="default" MultiBuildValue="DefaultBuild:red" MsiKey="AI_SecondColor"/>
+    <ROW Property="AI_ThemeStyle" Value="default" MultiBuildValue="DefaultBuild:red-waves" MsiKey="AI_ThemeStyle"/>
+    <ROW Property="ALLUSERS" Value="1"/>
+    <ROW Property="ARPCOMMENTS" Value="This installer database contains the logic and data required to install [|ProductName]." ValueLocId="*"/>
+    <ROW Property="ARPCONTACT" Value="support@du.dp.com"/>
+    <ROW Property="ARPHELPLINK" Value="http://www.du.dp.com/forums/"/>
+    <ROW Property="ARPHELPTELEPHONE" Value="1-800-123-4567-8900"/>
+    <ROW Property="ARPPRODUCTICON" Value="Icon32x32.exe" Type="8"/>
+    <ROW Property="ARPURLINFOABOUT" Value="http://www.du.dp.com"/>
+    <ROW Property="ARPURLUPDATEINFO" Value="http://www.du.dp.com/download.html"/>
+    <ROW Property="AiFeatIcoMainFeature" Value="Icon32x32.exe" Type="8"/>
+    <ROW Property="Manufacturer" Value="DataPhilosophiae"/>
+    <ROW Property="MsiLogging" MultiBuildValue="DefaultBuild:vp"/>
+    <ROW Property="ProductCode" Value="1033:{7C3D9036-9EA5-4E6E-86E0-CDBCAC0A9DB8} " Type="16"/>
+    <ROW Property="ProductLanguage" Value="1033"/>
+    <ROW Property="ProductName" Value="DataUnderstanding"/>
+    <ROW Property="ProductVersion" Value="1.0.0" Type="32"/>
+    <ROW Property="SecureCustomProperties" Value="OLDPRODUCTS;AI_NEWERPRODUCTFOUND"/>
+    <ROW Property="UpgradeCode" Value="{93235703-8CE8-4237-B97D-4E2841B832B9}"/>
+    <ROW Property="WindowsType9X" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsType9XDisplay" MultiBuildValue="DefaultBuild:Windows 9x/ME" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT40Display" MultiBuildValue="DefaultBuild:Windows NT 4.0" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT50Display" MultiBuildValue="DefaultBuild:Windows 2000" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5X" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+    <ROW Property="WindowsTypeNT5XDisplay" MultiBuildValue="DefaultBuild:Windows XP/2003 RTM, Windows XP/2003 SP1, Windows XP SP2 x86" ValueLocId="-"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiDirsComponent">
+    <ROW Directory="APPDIR" Directory_Parent="TARGETDIR" DefaultDir="APPDIR:." IsPseudoRoot="1"/>
+    <ROW Directory="Core_Dir" Directory_Parent="APPDIR" DefaultDir="Core"/>
+    <ROW Directory="DataPullerManager_Dir" Directory_Parent="APPDIR" DefaultDir="DATAPU~2|DataPullerManager"/>
+    <ROW Directory="DataPullerService_Dir" Directory_Parent="APPDIR" DefaultDir="DATAPU~1|DataPullerService"/>
+    <ROW Directory="SHORTCUTDIR" Directory_Parent="TARGETDIR" DefaultDir="SHORTC~1|SHORTCUTDIR" IsPseudoRoot="1"/>
+    <ROW Directory="TARGETDIR" DefaultDir="SourceDir"/>
+    <ROW Directory="WindowsServiceTestShellManager_Dir" Directory_Parent="APPDIR" DefaultDir="WINDOW~2|WindowsServiceTestShellManager"/>
+    <ROW Directory="WindowsServiceTestShell_Dir" Directory_Parent="APPDIR" DefaultDir="WINDOW~1|WindowsServiceTestShell"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
+    <ROW Component="Core_PrimaryOutput" ComponentId="{8A8B351E-8D4B-4EEF-8403-7BAE8FA71166}" Directory_="Core_Dir" Attributes="256" KeyPath="Core.exe_1"/>
+    <ROW Component="Core_References" ComponentId="{BE91EBEF-46E1-4B1D-95E0-02FA149EC167}" Directory_="Core_Dir" Attributes="256" KeyPath="System.Data.SQLite.Linq.dll_1"/>
+    <ROW Component="DataPullerManager_PrimaryOutput" ComponentId="{43211E9F-1138-4510-983E-9FCAF702E481}" Directory_="DataPullerManager_Dir" Attributes="256" KeyPath="DataPullerManager.exe"/>
+    <ROW Component="DataPullerManager_References" ComponentId="{E7870BBA-AE6D-4569-896C-9E06E95CC160}" Directory_="DataPullerManager_Dir" Attributes="256" KeyPath="System.ComponentModel.Annotations.dll_2"/>
+    <ROW Component="DataPullerService_PrimaryOutput" ComponentId="{5A98B66E-BA19-4512-AD14-A1E132E3EB84}" Directory_="DataPullerService_Dir" Attributes="256" KeyPath="DataPullerService.exe"/>
+    <ROW Component="DataPullerService_References" ComponentId="{FB7D5D5F-86DA-4571-B0D8-CB32D425E330}" Directory_="DataPullerService_Dir" Attributes="256" KeyPath="System.Data.SQLite.Linq.dll"/>
+    <ROW Component="ProductInformation" ComponentId="{562EF5A5-70A1-4B8C-B1AD-D20C1D4D196D}" Directory_="APPDIR" Attributes="260" KeyPath="Version"/>
+    <ROW Component="SHORTCUTDIR" ComponentId="{A54127DF-8F7C-4B4F-A10F-61EB2DC8C481}" Directory_="SHORTCUTDIR" Attributes="256"/>
+    <ROW Component="WindowsServiceTestShellManager_PrimaryOutput" ComponentId="{6BAE258C-06A5-4057-A0D3-C9BCA13FB39E}" Directory_="WindowsServiceTestShellManager_Dir" Attributes="256" KeyPath="WindowsServiceTestShellManager.exe"/>
+    <ROW Component="WindowsServiceTestShell_PrimaryOutput" ComponentId="{A45364BD-3A20-4283-A074-22C0A9437A16}" Directory_="WindowsServiceTestShell_Dir" Attributes="256" KeyPath="WindowsServiceTestShell.exe"/>
+    <ROW Component="WindowsServiceTestShell_References" ComponentId="{C479A1F1-4E06-4556-A91B-B3D37B3AC4A2}" Directory_="WindowsServiceTestShell_Dir" Attributes="256" KeyPath="System.Data.SQLite.Linq.dll_3"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="Core_PrimaryOutput Core_References DataPullerManager_PrimaryOutput DataPullerManager_References DataPullerService_PrimaryOutput DataPullerService_References ProductInformation SHORTCUTDIR WindowsServiceTestShellManager_PrimaryOutput WindowsServiceTestShell_PrimaryOutput WindowsServiceTestShell_References"/>
+    <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
+    <ROW File="Core.exe.config" Component_="Core_PrimaryOutput" FileName="COREEX~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_Core.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Core.exe.config&gt;" SelfReg="false" NextFile="DevExpress.Data.v17.2.dll_1"/>
+    <ROW File="Core.exe_1" Component_="Core_PrimaryOutput" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Core.exe_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Core.exe_1&gt;" SelfReg="false" NextFile="Core.exe.config" DigSign="true"/>
+    <ROW File="Core.exe_2" Component_="DataPullerManager_References" FileName="[|AI_PROPPATH_FILENAME_PERBUILD_Core.exe_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_Core.exe_2&gt;" SelfReg="false" NextFile="EntityFramework.dll_2" DigSign="true"/>
+    <ROW File="DataPullerManager.exe" Component_="DataPullerManager_PrimaryOutput" FileName="DATAPU~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_DataPullerManager.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DataPullerManager.exe&gt;" SelfReg="false" NextFile="DataPullerManager.exe.config" DigSign="true"/>
+    <ROW File="DataPullerManager.exe.config" Component_="DataPullerManager_PrimaryOutput" FileName="DATAPU~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_DataPullerManager.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DataPullerManager.exe.config&gt;" SelfReg="false" NextFile="DataPullerService.exe_1"/>
+    <ROW File="DataPullerService.exe" Component_="DataPullerService_PrimaryOutput" FileName="DATAPU~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_DataPullerService.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DataPullerService.exe&gt;" SelfReg="false" NextFile="DataPullerService.exe.config" DigSign="true"/>
+    <ROW File="DataPullerService.exe.config" Component_="DataPullerService_PrimaryOutput" FileName="DATAPU~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_DataPullerService.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DataPullerService.exe.config&gt;" SelfReg="false" NextFile="EntityFramework.dll"/>
+    <ROW File="DataPullerService.exe_1" Component_="DataPullerManager_References" FileName="DATAPU~3.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_DataPullerService.exe_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DataPullerService.exe_1&gt;" SelfReg="false" NextFile="Core.exe_2" DigSign="true"/>
+    <ROW File="DevExpress.Data.v17.2.dll_1" Component_="Core_References" FileName="DEVEXP~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Data.v17.2.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.Data.v17.2.dll_1&gt;" SelfReg="false" NextFile="DevExpress.Xpo.v17.2.dll_1"/>
+    <ROW File="DevExpress.Data.v17.2.dll_2" Component_="DataPullerManager_References" FileName="DEVEXP~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Data.v17.2.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.Data.v17.2.dll_2&gt;" SelfReg="false" NextFile="DevExpress.Xpo.v17.2.dll_2"/>
+    <ROW File="DevExpress.Xpo.v17.2.dll_1" Component_="Core_References" FileName="DEVEXP~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Xpo.v17.2.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.Xpo.v17.2.dll_1&gt;" SelfReg="false" NextFile="EntityFramework.dll_1"/>
+    <ROW File="DevExpress.Xpo.v17.2.dll_2" Component_="DataPullerManager_References" FileName="DEVEXP~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Xpo.v17.2.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.Xpo.v17.2.dll_2&gt;" SelfReg="false" NextFile="System.ComponentModel.Annotations.dll_2"/>
+    <ROW File="EntityFramework.SqlServer.dll" Component_="DataPullerService_References" FileName="ENTITY~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.SqlServer.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_EntityFramework.SqlServer.dll&gt;" SelfReg="false" NextFile="System.Data.SQLite.dll"/>
+    <ROW File="EntityFramework.SqlServer.dll_1" Component_="Core_References" FileName="ENTITY~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.SqlServer.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_EntityFramework.SqlServer.dll_1&gt;" SelfReg="false" NextFile="System.ComponentModel.Annotations.dll_1"/>
+    <ROW File="EntityFramework.SqlServer.dll_2" Component_="DataPullerManager_References" FileName="ENTITY~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.SqlServer.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_EntityFramework.SqlServer.dll_2&gt;" SelfReg="false" NextFile="System.Data.SQLite.dll_2"/>
+    <ROW File="EntityFramework.SqlServer.dll_3" Component_="WindowsServiceTestShell_References" FileName="ENTITY~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.SqlServer.dll_3]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_EntityFramework.SqlServer.dll_3&gt;" SelfReg="false" NextFile="System.Data.SQLite.dll_3"/>
+    <ROW File="EntityFramework.dll" Component_="DataPullerService_References" FileName="ENTITY~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_EntityFramework.dll&gt;" SelfReg="false" NextFile="EntityFramework.SqlServer.dll"/>
+    <ROW File="EntityFramework.dll_1" Component_="Core_References" FileName="ENTITY~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_EntityFramework.dll_1&gt;" SelfReg="false" NextFile="EntityFramework.SqlServer.dll_1"/>
+    <ROW File="EntityFramework.dll_2" Component_="DataPullerManager_References" FileName="ENTITY~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_EntityFramework.dll_2&gt;" SelfReg="false" NextFile="EntityFramework.SqlServer.dll_2"/>
+    <ROW File="EntityFramework.dll_3" Component_="WindowsServiceTestShell_References" FileName="ENTITY~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.dll_3]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_EntityFramework.dll_3&gt;" SelfReg="false" NextFile="EntityFramework.SqlServer.dll_3"/>
+    <ROW File="System.ComponentModel.Annotations.dll_1" Component_="Core_References" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.ComponentModel.Annotations.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.ComponentModel.Annotations.dll_1&gt;" SelfReg="false" NextFile="System.Data.SQLite.dll_1"/>
+    <ROW File="System.ComponentModel.Annotations.dll_2" Component_="DataPullerManager_References" FileName="SYSTEM~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.ComponentModel.Annotations.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.ComponentModel.Annotations.dll_2&gt;" SelfReg="false" NextFile="WindowsServiceTestShell.exe"/>
+    <ROW File="System.Data.SQLite.EF6.dll" Component_="DataPullerService_References" FileName="SYSTEM~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.EF6.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.SQLite.EF6.dll&gt;" SelfReg="false" NextFile="System.Data.SQLite.Linq.dll"/>
+    <ROW File="System.Data.SQLite.EF6.dll_1" Component_="Core_References" FileName="SYSTEM~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.EF6.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.SQLite.EF6.dll_1&gt;" SelfReg="false" NextFile="System.Data.SQLite.Linq.dll_1"/>
+    <ROW File="System.Data.SQLite.EF6.dll_2" Component_="DataPullerManager_References" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.EF6.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.SQLite.EF6.dll_2&gt;" SelfReg="false" NextFile="System.Data.SQLite.Linq.dll_2"/>
+    <ROW File="System.Data.SQLite.EF6.dll_3" Component_="WindowsServiceTestShell_References" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.EF6.dll_3]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.SQLite.EF6.dll_3&gt;" SelfReg="false" NextFile="System.Data.SQLite.Linq.dll_3"/>
+    <ROW File="System.Data.SQLite.Linq.dll" Component_="DataPullerService_References" FileName="SYSTEM~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.Linq.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.SQLite.Linq.dll&gt;" SelfReg="false" NextFile="Core.exe_1"/>
+    <ROW File="System.Data.SQLite.Linq.dll_1" Component_="Core_References" FileName="SYSTEM~5.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.Linq.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.SQLite.Linq.dll_1&gt;" SelfReg="false" NextFile="DataPullerManager.exe"/>
+    <ROW File="System.Data.SQLite.Linq.dll_2" Component_="DataPullerManager_References" FileName="SYSTEM~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.Linq.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.SQLite.Linq.dll_2&gt;" SelfReg="false" NextFile="DevExpress.Data.v17.2.dll_2"/>
+    <ROW File="System.Data.SQLite.Linq.dll_3" Component_="WindowsServiceTestShell_References" FileName="SYSTEM~4.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.Linq.dll_3]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.SQLite.Linq.dll_3&gt;" SelfReg="false" NextFile="WindowsServiceTestShellManager.exe"/>
+    <ROW File="System.Data.SQLite.dll" Component_="DataPullerService_References" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.SQLite.dll&gt;" SelfReg="false" NextFile="System.Data.SQLite.EF6.dll"/>
+    <ROW File="System.Data.SQLite.dll_1" Component_="Core_References" FileName="SYSTEM~3.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.dll_1]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.SQLite.dll_1&gt;" SelfReg="false" NextFile="System.Data.SQLite.EF6.dll_1"/>
+    <ROW File="System.Data.SQLite.dll_2" Component_="DataPullerManager_References" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.dll_2]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.SQLite.dll_2&gt;" SelfReg="false" NextFile="System.Data.SQLite.EF6.dll_2"/>
+    <ROW File="System.Data.SQLite.dll_3" Component_="WindowsServiceTestShell_References" FileName="SYSTEM~2.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.dll_3]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_System.Data.SQLite.dll_3&gt;" SelfReg="false" NextFile="System.Data.SQLite.EF6.dll_3"/>
+    <ROW File="WindowsServiceTestShell.exe" Component_="WindowsServiceTestShell_PrimaryOutput" FileName="WINDOW~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_WindowsServiceTestShell.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_WindowsServiceTestShell.exe&gt;" SelfReg="false" NextFile="WindowsServiceTestShell.exe.config" DigSign="true"/>
+    <ROW File="WindowsServiceTestShell.exe.config" Component_="WindowsServiceTestShell_PrimaryOutput" FileName="WINDOW~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_WindowsServiceTestShell.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_WindowsServiceTestShell.exe.config&gt;" SelfReg="false" NextFile="EntityFramework.dll_3"/>
+    <ROW File="WindowsServiceTestShellManager.exe" Component_="WindowsServiceTestShellManager_PrimaryOutput" FileName="WINDOW~2.EXE|[|AI_PROPPATH_FILENAME_PERBUILD_WindowsServiceTestShellManager.exe]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_WindowsServiceTestShellManager.exe&gt;" SelfReg="false" NextFile="WindowsServiceTestShellManager.exe.config" DigSign="true"/>
+    <ROW File="WindowsServiceTestShellManager.exe.config" Component_="WindowsServiceTestShellManager_PrimaryOutput" FileName="WINDOW~2.CON|[|AI_PROPPATH_FILENAME_PERBUILD_WindowsServiceTestShellManager.exe.config]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_WindowsServiceTestShellManager.exe.config&gt;" SelfReg="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
+    <ROW Name="AI_APPPATH_PERBUILD_Core.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_Core.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_Core.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Core.exe_1" Path="[|AI_PROPPATH_DIR_PERBUILD_Core.exe_1]\[|AI_PROPPATH_FILENAME_PERBUILD_Core.exe_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_Core.exe_2" Path="[|AI_PROPPATH_DIR_PERBUILD_Core.exe_2]\[|AI_PROPPATH_FILENAME_PERBUILD_Core.exe_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DataPullerManager.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_DataPullerManager.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_DataPullerManager.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DataPullerManager.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_DataPullerManager.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_DataPullerManager.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DataPullerService.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_DataPullerService.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_DataPullerService.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DataPullerService.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_DataPullerService.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_DataPullerService.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DataPullerService.exe_1" Path="[|AI_PROPPATH_DIR_PERBUILD_DataPullerService.exe_1]\[|AI_PROPPATH_FILENAME_PERBUILD_DataPullerService.exe_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Data.v17.2.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Data.v17.2.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Data.v17.2.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Data.v17.2.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Data.v17.2.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Data.v17.2.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Xpo.v17.2.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Xpo.v17.2.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Xpo.v17.2.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Xpo.v17.2.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Xpo.v17.2.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Xpo.v17.2.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_EntityFramework.SqlServer.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_EntityFramework.SqlServer.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.SqlServer.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_EntityFramework.SqlServer.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_EntityFramework.SqlServer.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.SqlServer.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_EntityFramework.SqlServer.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_EntityFramework.SqlServer.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.SqlServer.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_EntityFramework.SqlServer.dll_3" Path="[|AI_PROPPATH_DIR_PERBUILD_EntityFramework.SqlServer.dll_3]\[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.SqlServer.dll_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_EntityFramework.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_EntityFramework.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_EntityFramework.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_EntityFramework.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_EntityFramework.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_EntityFramework.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_EntityFramework.dll_3" Path="[|AI_PROPPATH_DIR_PERBUILD_EntityFramework.dll_3]\[|AI_PROPPATH_FILENAME_PERBUILD_EntityFramework.dll_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.ComponentModel.Annotations.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.ComponentModel.Annotations.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.ComponentModel.Annotations.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.ComponentModel.Annotations.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_System.ComponentModel.Annotations.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_System.ComponentModel.Annotations.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.SQLite.EF6.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.EF6.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.EF6.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.SQLite.EF6.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.EF6.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.EF6.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.SQLite.EF6.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.EF6.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.EF6.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.SQLite.EF6.dll_3" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.EF6.dll_3]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.EF6.dll_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.SQLite.Linq.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.Linq.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.Linq.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.SQLite.Linq.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.Linq.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.Linq.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.SQLite.Linq.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.Linq.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.Linq.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.SQLite.Linq.dll_3" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.Linq.dll_3]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.Linq.dll_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.SQLite.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.SQLite.dll_1" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.dll_1]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.dll_1]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.SQLite.dll_2" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.dll_2]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.dll_2]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_System.Data.SQLite.dll_3" Path="[|AI_PROPPATH_DIR_PERBUILD_System.Data.SQLite.dll_3]\[|AI_PROPPATH_FILENAME_PERBUILD_System.Data.SQLite.dll_3]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_WindowsServiceTestShell.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_WindowsServiceTestShell.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_WindowsServiceTestShell.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_WindowsServiceTestShell.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_WindowsServiceTestShell.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_WindowsServiceTestShell.exe.config]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_WindowsServiceTestShellManager.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_WindowsServiceTestShellManager.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_WindowsServiceTestShellManager.exe]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_WindowsServiceTestShellManager.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_WindowsServiceTestShellManager.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_WindowsServiceTestShellManager.exe.config]" Type="2" Content="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
+    <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BootstrapperUISequenceComponent">
+    <ROW Action="AI_DetectSoftware" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
+    <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFileName="DataPhilosophiae" Languages="en" InstallationType="4" PackageType="1" ExeIconPath="..\Icon\Icon-32x32.ico" ExtUI="true" UseLargeSchema="true" ExeName="DataPhilosophiae" UACExecutionLevel="2"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.DictionaryComponent">
+    <ROW Path="&lt;AI_DICTS&gt;ui.ail"/>
+    <ROW Path="&lt;AI_DICTS&gt;ui_en.ail"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.FragmentComponent">
+    <ROW Fragment="CommonUI.aip" Path="&lt;AI_FRAGS&gt;CommonUI.aip"/>
+    <ROW Fragment="FolderDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\FolderDlg.aip"/>
+    <ROW Fragment="MaintenanceTypeDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\MaintenanceTypeDlg.aip"/>
+    <ROW Fragment="MaintenanceWelcomeDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\MaintenanceWelcomeDlg.aip"/>
+    <ROW Fragment="PreparePrereqDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\PreparePrereqDlg.aip"/>
+    <ROW Fragment="PrerequisitesDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\PrerequisitesDlg.aip"/>
+    <ROW Fragment="ProgressPrereqDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\ProgressPrereqDlg.aip"/>
+    <ROW Fragment="SequenceDialogs.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\SequenceDialogs.aip"/>
+    <ROW Fragment="Sequences.aip" Path="&lt;AI_FRAGS&gt;Sequences.aip"/>
+    <ROW Fragment="StaticUIStrings.aip" Path="&lt;AI_FRAGS&gt;StaticUIStrings.aip"/>
+    <ROW Fragment="UI.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\UI.aip"/>
+    <ROW Fragment="Validation.aip" Path="&lt;AI_FRAGS&gt;Validation.aip"/>
+    <ROW Fragment="VerifyRemoveDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\VerifyRemoveDlg.aip"/>
+    <ROW Fragment="VerifyRepairDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\VerifyRepairDlg.aip"/>
+    <ROW Fragment="WelcomeDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\WelcomeDlg.aip"/>
+    <ROW Fragment="WelcomePrereqDlg.aip" Path="&lt;AI_THEMES&gt;graphite\fragments\WelcomePrereqDlg.aip"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiBinaryComponent">
+    <ROW Name="Prereq.dll" SourcePath="&lt;AI_CUSTACTS&gt;Prereq.dll"/>
+    <ROW Name="SoftwareDetector.dll" SourcePath="&lt;AI_CUSTACTS&gt;SoftwareDetector.dll"/>
+    <ROW Name="aicustact.dll" SourcePath="&lt;AI_CUSTACTS&gt;aicustact.dll"/>
+    <ROW Name="frame_bottom_left.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_bottom_left.bmp"/>
+    <ROW Name="frame_bottom_left_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_bottom_left_inactive.bmp"/>
+    <ROW Name="frame_bottom_mid.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_bottom_mid.bmp"/>
+    <ROW Name="frame_bottom_mid_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_bottom_mid_inactive.bmp"/>
+    <ROW Name="frame_bottom_right.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_bottom_right.bmp"/>
+    <ROW Name="frame_bottom_right_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_bottom_right_inactive.bmp"/>
+    <ROW Name="frame_caption.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_caption.bmp"/>
+    <ROW Name="frame_caption_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_caption_inactive.bmp"/>
+    <ROW Name="frame_left.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_left.bmp"/>
+    <ROW Name="frame_left_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_left_inactive.bmp"/>
+    <ROW Name="frame_right.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_right.bmp"/>
+    <ROW Name="frame_right_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_right_inactive.bmp"/>
+    <ROW Name="frame_top_left.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_top_left.bmp"/>
+    <ROW Name="frame_top_left_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_top_left_inactive.bmp"/>
+    <ROW Name="frame_top_mid.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_top_mid.bmp"/>
+    <ROW Name="frame_top_mid_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_top_mid_inactive.bmp"/>
+    <ROW Name="frame_top_right.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_top_right.bmp"/>
+    <ROW Name="frame_top_right_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;frame_top_right_inactive.bmp"/>
+    <ROW Name="sys_close_down.bmp" SourcePath="&lt;AI_FRAME_BTNS&gt;sys_close_down.bmp"/>
+    <ROW Name="sys_close_hot.bmp" SourcePath="&lt;AI_FRAME_BTNS&gt;sys_close_hot.bmp"/>
+    <ROW Name="sys_close_inactive.bmp" SourcePath="&lt;AI_FRAME_BTNS&gt;sys_close_inactive.bmp"/>
+    <ROW Name="sys_close_normal.bmp" SourcePath="&lt;AI_FRAME_BTNS&gt;sys_close_normal.bmp"/>
+    <ROW Name="sys_min_down.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;sys_min_down.bmp"/>
+    <ROW Name="sys_min_hot.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;sys_min_hot.bmp"/>
+    <ROW Name="sys_min_inactive.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;sys_min_inactive.bmp"/>
+    <ROW Name="sys_min_normal.bmp" SourcePath="&lt;AI_FRAME_COLOR&gt;sys_min_normal.bmp"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlComponent">
+    <ROW Dialog_="WelcomePrereqDlg" Control="Description" Type="Text" X="175" Y="89" Width="323" Height="220" Attributes="196611" Text="The setup has determined that some of the prerequisites needed to run [ProductName] are missing. This wizard will assist you in getting and installing those prerequisites. Click &quot;[Text_Next]&quot; to continue or &quot;[ButtonText_Cancel]&quot; to exit the [Wizard]." Order="800" TextLocId="Control.Text.WelcomePrereqDlg#Description" MsiKey="WelcomePrereqDlg#Description"/>
+    <ROW Dialog_="WelcomePrereqDlg" Control="PreparingLabel" Type="Text" X="35" Y="114" Width="104" Height="11" Attributes="196611" Text="Preparing installation" TextStyle="Labels" Order="900" TextLocId="Graphite.Control.Text.Dlg#PreparingLabel" MsiKey="WelcomePrereqDlg#PreparingLabel"/>
+    <ROW Dialog_="WelcomePrereqDlg" Control="InstallingLabel" Type="Text" X="35" Y="138" Width="104" Height="11" Attributes="196611" Text="Installing" TextStyle="Labels" Order="1000" TextLocId="Graphite.Control.Text.Dlg#InstallingLabel" MsiKey="WelcomePrereqDlg#InstallingLabel"/>
+    <ROW Dialog_="WelcomePrereqDlg" Control="FinalizingLabel" Type="Text" X="35" Y="162" Width="104" Height="11" Attributes="196611" Text="Finalizing installation" TextStyle="Labels" Order="1100" TextLocId="Graphite.Control.Text.Dlg#FinalizingLabel" MsiKey="WelcomePrereqDlg#FinalizingLabel"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiControlEventComponent">
+    <ROW Dialog_="WelcomePrereqDlg" Control_="Next" Event="NewDialog" Argument="PrerequisitesDlg" Condition="AI_BOOTSTRAPPER" Ordering="1"/>
+    <ROW Dialog_="PrerequisitesDlg" Control_="Next" Event="EndDialog" Argument="Return" Condition="AI_BOOTSTRAPPER" Ordering="1"/>
+    <ROW Dialog_="PrerequisitesDlg" Control_="Back" Event="NewDialog" Argument="WelcomePrereqDlg" Condition="AI_BOOTSTRAPPER" Ordering="1"/>
+    <ROW Dialog_="WelcomeDlg" Control_="Next" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="FolderDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="FolderDlg" Control_="Back" Event="NewDialog" Argument="WelcomeDlg" Condition="AI_INSTALL" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_INSTALL" Ordering="197"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="FolderDlg" Condition="AI_INSTALL" Ordering="201"/>
+    <ROW Dialog_="MaintenanceWelcomeDlg" Control_="Next" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="99"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_MAINT" Ordering="101"/>
+    <ROW Dialog_="CustomizeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_MAINT" Ordering="198"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="202"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Next" Event="NewDialog" Argument="CustomizeDlg" Condition="AI_MAINT" Ordering="1401"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceWelcomeDlg" Condition="AI_MAINT" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Next" Event="NewDialog" Argument="VerifyRemoveDlg" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Remove&quot;" Ordering="1403"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Remove&quot;" Ordering="1"/>
+    <ROW Dialog_="MaintenanceTypeDlg" Control_="Next" Event="NewDialog" Argument="VerifyRepairDlg" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Repair&quot;" Ordering="1402"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Back" Event="NewDialog" Argument="MaintenanceTypeDlg" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Repair&quot;" Ordering="1"/>
+    <ROW Dialog_="VerifyRepairDlg" Control_="Repair" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Repair&quot;" Ordering="399" Options="1"/>
+    <ROW Dialog_="VerifyRemoveDlg" Control_="Remove" Event="EndDialog" Argument="Return" Condition="AI_MAINT AND MaintenanceTypeOption=&quot;Remove&quot;" Ordering="299" Options="1"/>
+    <ROW Dialog_="PatchWelcomeDlg" Control_="Next" Event="NewDialog" Argument="VerifyReadyDlg" Condition="AI_PATCH" Ordering="201"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_PATCH" Ordering="199"/>
+    <ROW Dialog_="VerifyReadyDlg" Control_="Back" Event="NewDialog" Argument="PatchWelcomeDlg" Condition="AI_PATCH" Ordering="203"/>
+    <ROW Dialog_="ResumeDlg" Control_="Install" Event="EndDialog" Argument="Return" Condition="AI_RESUME" Ordering="299"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCreateFolderComponent">
+    <ROW Directory_="SHORTCUTDIR" Component_="SHORTCUTDIR" ManualDelete="false"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiCustActComponent">
+    <ROW Action="AI_AppSearchEx" Type="1" Source="Prereq.dll" Target="DoAppSearchEx"/>
+    <ROW Action="AI_DOWNGRADE" Type="19" Target="4010"/>
+    <ROW Action="AI_DetectSoftware" Type="257" Source="SoftwareDetector.dll" Target="OnDetectSoftware"/>
+    <ROW Action="AI_DpiContentScale" Type="1" Source="aicustact.dll" Target="DpiContentScale"/>
+    <ROW Action="AI_EnableDebugLog" Type="321" Source="aicustact.dll" Target="EnableDebugLog"/>
+    <ROW Action="AI_InstallModeCheck" Type="1" Source="aicustact.dll" Target="UpdateInstallMode" WithoutSeq="true"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Type="65" Source="aicustact.dll" Target="PrepareUpgrade"/>
+    <ROW Action="AI_RESTORE_LOCATION" Type="65" Source="aicustact.dll" Target="RestoreLocation"/>
+    <ROW Action="AI_ResolveKnownFolders" Type="1" Source="aicustact.dll" Target="AI_ResolveKnownFolders"/>
+    <ROW Action="AI_SHOW_LOG" Type="65" Source="aicustact.dll" Target="LaunchLogFile" WithoutSeq="true"/>
+    <ROW Action="AI_STORE_LOCATION" Type="51" Source="ARPINSTALLLOCATION" Target="[APPDIR]"/>
+    <ROW Action="SET_APPDIR" Type="307" Source="APPDIR" Target="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+    <ROW Action="SET_SHORTCUTDIR" Type="307" Source="SHORTCUTDIR" Target="[ProgramMenuFolder][ProductName]"/>
+    <ROW Action="SET_TARGETDIR_TO_APPDIR" Type="51" Source="TARGETDIR" Target="[APPDIR]"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiIconsComponent">
+    <ROW Name="Icon32x32.exe" SourcePath="..\Icon\Icon-32x32.ico" Index="0"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstExSeqComponent">
+    <ROW Action="AI_DOWNGRADE" Condition="AI_NEWERPRODUCTFOUND AND (UILevel &lt;&gt; 5)" Sequence="210"/>
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_STORE_LOCATION" Condition="(Not Installed) OR REINSTALL" Sequence="1501"/>
+    <ROW Action="AI_PREPARE_UPGRADE" Condition="AI_UPGRADE=&quot;No&quot; AND (Not Installed)" Sequence="1399"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_DetectSoftware" Sequence="102"/>
+    <ROW Action="AI_AppSearchEx" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiInstallUISequenceComponent">
+    <ROW Action="AI_RESTORE_LOCATION" Condition="APPDIR=&quot;&quot;" Sequence="749"/>
+    <ROW Action="AI_ResolveKnownFolders" Sequence="53"/>
+    <ROW Action="AI_DpiContentScale" Sequence="52"/>
+    <ROW Action="AI_EnableDebugLog" Sequence="51"/>
+    <ROW Action="AI_DetectSoftware" Sequence="102"/>
+    <ROW Action="AI_AppSearchEx" Sequence="101"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiLaunchConditionsComponent">
+    <ROW Condition="(VersionNT &lt;&gt; 400)" Description="[ProductName] cannot be installed on [WindowsTypeNT40Display]." DescriptionLocId="AI.LaunchCondition.NoNT40" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT &lt;&gt; 500)" Description="[ProductName] cannot be installed on [WindowsTypeNT50Display]." DescriptionLocId="AI.LaunchCondition.NoNT50" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="(VersionNT64 OR ((VersionNT &lt;&gt; 501) OR (ServicePackLevel = 3))) AND ((VersionNT &lt;&gt; 502) OR (ServicePackLevel = 2))" Description="[ProductName] cannot be installed on [WindowsTypeNT5XDisplay]." DescriptionLocId="AI.LaunchCondition.NoNT5X" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="AI_DETECTED_INTERNET_CONNECTION" Description="[ProductName] requires an active Internet connection for installation. Please check your network configuration and proxy settings." DescriptionLocId="AI.LaunchCondition.Internet" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="SETUPEXEDIR OR (REMOVE=&quot;ALL&quot;)" Description="This package can only be run from a bootstrapper." DescriptionLocId="AI.LaunchCondition.RequireBootstrapper" IsPredefined="true" Builds="DefaultBuild"/>
+    <ROW Condition="VersionNT" Description="[ProductName] cannot be installed on [WindowsType9XDisplay]." DescriptionLocId="AI.LaunchCondition.No9X" IsPredefined="true" Builds="DefaultBuild"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiRegsComponent">
+    <ROW Registry="Path" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Path" Value="[APPDIR]" Component_="ProductInformation"/>
+    <ROW Registry="Version" Root="-1" Key="Software\[Manufacturer]\[ProductName]" Name="Version" Value="[ProductVersion]" Component_="ProductInformation"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiServCtrlComponent">
+    <ROW ServiceControl="WindowsServiceTestShell.exe" Name="WindowServiceNamePlaceHolder" Event="160" Wait="1" Component_="WindowsServiceTestShell_PrimaryOutput"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiServInstComponent">
+    <ROW ServiceInstall="WindowsServiceTestShell.exe" Name="WindowServiceNamePlaceHolder" DisplayName="WindowServiceDisplayNamePlaceHolder" ServiceType="272" StartType="2" ErrorControl="32769" Component_="WindowsServiceTestShell_PrimaryOutput" Description="Your Service Description"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiShortsComponent">
+    <ROW Shortcut="Core" Directory_="SHORTCUTDIR" Name="Core" Component_="Core_PrimaryOutput" Target="[#Core.exe_1]" Hotkey="0" IconIndex="0" ShowCmd="1"/>
+    <ROW Shortcut="DataPullerManager" Directory_="SHORTCUTDIR" Name="DATAPU~2|DataPullerManager" Component_="DataPullerManager_PrimaryOutput" Target="[#DataPullerManager.exe]" Hotkey="0" Icon_="Icon32x32.exe" IconIndex="0" ShowCmd="1"/>
+    <ROW Shortcut="DataPullerService" Directory_="SHORTCUTDIR" Name="DATAPU~1|DataPullerService" Component_="DataPullerService_PrimaryOutput" Target="[#DataPullerService.exe]" Hotkey="0" IconIndex="0" ShowCmd="1"/>
+    <ROW Shortcut="WindowsServiceTestShell" Directory_="SHORTCUTDIR" Name="WINDOW~1|WindowsServiceTestShell" Component_="WindowsServiceTestShell_PrimaryOutput" Target="[#WindowsServiceTestShell.exe]" Hotkey="0" IconIndex="0" ShowCmd="1"/>
+    <ROW Shortcut="WindowsServiceTestShellManager" Directory_="SHORTCUTDIR" Name="WINDOW~2|WindowsServiceTestShellManager" Component_="WindowsServiceTestShellManager_PrimaryOutput" Target="[#WindowsServiceTestShellManager.exe]" Hotkey="0" IconIndex="0" ShowCmd="1"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiThemeComponent">
+    <ATTRIBUTE name="UsedTheme" value="graphite"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.MsiUpgradeComponent">
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="0.0.1" VersionMax="[|ProductVersion]" Attributes="257" ActionProperty="OLDPRODUCTS"/>
+    <ROW UpgradeCode="[|UpgradeCode]" VersionMin="[|ProductVersion]" Attributes="2" ActionProperty="AI_NEWERPRODUCTFOUND"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqComponent">
+    <ROW PrereqKey="D5734F904894AAF30073527F3FCD" DisplayName=".NET Framework 4.7.1 (web installer)" SetupFileUrl="https://download.microsoft.com/download/8/E/2/8E2BDDE7-F06E-44CC-A145-56C6B9BBE5DD/NDP471-KB4033344-Web.exe" Location="1" ExactSize="1434504" WinNTVersions="Windows XP SP3 x86, Windows Server 2003 SP2 x86, Windows Vista x86, Windows Server 2008 x86, Windows 7 RTM x86, Windows 10 version 1507 x86, Windows 10 version 1511 x86, Windows 10 version 1709 x86" WinNT64Versions="Windows XP SP2 x64, Windows Server 2003 SP2 x64, Windows Vista x64, Windows Server 2008 x64, Windows 7 RTM x64, Windows Server 2008 R2 RTM x64, Windows 10 version 1507 x64, Windows 10 version 1511 x64, Windows 10 version 1709 x64" Operator="1" NoUiComLine="/q /norestart" Options="xy" MD5="4fb795478a8f346c337a1f84baccc85b" TargetName=".NET Framework 4.7.1"/>
+    <ATTRIBUTE name="PrereqsOrder" value="D5734F904894AAF30073527F3FCD"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.PreReqSearchComponent">
+    <ROW SearchKey="D5734F904894AAF30073527F3FCDRelease" Prereq="D5734F904894AAF30073527F3FCD" SearchType="9" SearchString="HKLM\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full\Release" RefContent="G461309" Order="1" Property="PreReqSearch_D5734F904894AAF3007352"/>
+  </COMPONENT>
+  <COMPONENT cid="caphyon.advinst.msicomp.VsProjectComponent">
+    <ROW ProjectId="{f0c78720-4ea8-4b8d-823b-763e675995d7}" ProjectName="DataPullerService" OutputGroup="PrimaryOutput" OutputFile="DataPullerService.exe" OutputFileShortcut="DataPullerService"/>
+    <ROW ProjectId="{f0c78720-4ea8-4b8d-823b-763e675995d7}" ProjectName="DataPullerService" OutputGroup="PrimaryOutput" OutputFile="DataPullerService.exe.config"/>
+    <ROW ProjectId="{f0c78720-4ea8-4b8d-823b-763e675995d7}" ProjectName="DataPullerService" OutputGroup="References" OutputFile="EntityFramework.dll"/>
+    <ROW ProjectId="{f0c78720-4ea8-4b8d-823b-763e675995d7}" ProjectName="DataPullerService" OutputGroup="References" OutputFile="EntityFramework.SqlServer.dll"/>
+    <ROW ProjectId="{f0c78720-4ea8-4b8d-823b-763e675995d7}" ProjectName="DataPullerService" OutputGroup="References" OutputFile="System.Data.SQLite.dll"/>
+    <ROW ProjectId="{f0c78720-4ea8-4b8d-823b-763e675995d7}" ProjectName="DataPullerService" OutputGroup="References" OutputFile="System.Data.SQLite.EF6.dll"/>
+    <ROW ProjectId="{f0c78720-4ea8-4b8d-823b-763e675995d7}" ProjectName="DataPullerService" OutputGroup="References" OutputFile="System.Data.SQLite.Linq.dll"/>
+    <ROW ProjectId="{08cb171f-8eee-403e-ba0c-dbdedc1de4d6}" ProjectName="Core" OutputGroup="PrimaryOutput" OutputFile="Core.exe_1" OutputFileShortcut="Core"/>
+    <ROW ProjectId="{08cb171f-8eee-403e-ba0c-dbdedc1de4d6}" ProjectName="Core" OutputGroup="PrimaryOutput" OutputFile="Core.exe.config"/>
+    <ROW ProjectId="{08cb171f-8eee-403e-ba0c-dbdedc1de4d6}" ProjectName="Core" OutputGroup="References" OutputFile="DevExpress.Data.v17.2.dll_1"/>
+    <ROW ProjectId="{08cb171f-8eee-403e-ba0c-dbdedc1de4d6}" ProjectName="Core" OutputGroup="References" OutputFile="DevExpress.Xpo.v17.2.dll_1"/>
+    <ROW ProjectId="{08cb171f-8eee-403e-ba0c-dbdedc1de4d6}" ProjectName="Core" OutputGroup="References" OutputFile="EntityFramework.dll_1"/>
+    <ROW ProjectId="{08cb171f-8eee-403e-ba0c-dbdedc1de4d6}" ProjectName="Core" OutputGroup="References" OutputFile="EntityFramework.SqlServer.dll_1"/>
+    <ROW ProjectId="{08cb171f-8eee-403e-ba0c-dbdedc1de4d6}" ProjectName="Core" OutputGroup="References" OutputFile="System.ComponentModel.Annotations.dll_1"/>
+    <ROW ProjectId="{08cb171f-8eee-403e-ba0c-dbdedc1de4d6}" ProjectName="Core" OutputGroup="References" OutputFile="System.Data.SQLite.dll_1"/>
+    <ROW ProjectId="{08cb171f-8eee-403e-ba0c-dbdedc1de4d6}" ProjectName="Core" OutputGroup="References" OutputFile="System.Data.SQLite.EF6.dll_1"/>
+    <ROW ProjectId="{08cb171f-8eee-403e-ba0c-dbdedc1de4d6}" ProjectName="Core" OutputGroup="References" OutputFile="System.Data.SQLite.Linq.dll_1"/>
+    <ROW ProjectId="{bae2fd76-1fbb-484b-8808-793e142e37cc}" ProjectName="DataPullerManager" OutputGroup="PrimaryOutput" OutputFile="DataPullerManager.exe" OutputFileShortcut="DataPullerManager"/>
+    <ROW ProjectId="{bae2fd76-1fbb-484b-8808-793e142e37cc}" ProjectName="DataPullerManager" OutputGroup="PrimaryOutput" OutputFile="DataPullerManager.exe.config"/>
+    <ROW ProjectId="{bae2fd76-1fbb-484b-8808-793e142e37cc}" ProjectName="DataPullerManager" OutputGroup="References" OutputFile="DataPullerService.exe_1"/>
+    <ROW ProjectId="{bae2fd76-1fbb-484b-8808-793e142e37cc}" ProjectName="DataPullerManager" OutputGroup="References" OutputFile="Core.exe_2"/>
+    <ROW ProjectId="{bae2fd76-1fbb-484b-8808-793e142e37cc}" ProjectName="DataPullerManager" OutputGroup="References" OutputFile="EntityFramework.dll_2"/>
+    <ROW ProjectId="{bae2fd76-1fbb-484b-8808-793e142e37cc}" ProjectName="DataPullerManager" OutputGroup="References" OutputFile="EntityFramework.SqlServer.dll_2"/>
+    <ROW ProjectId="{bae2fd76-1fbb-484b-8808-793e142e37cc}" ProjectName="DataPullerManager" OutputGroup="References" OutputFile="System.Data.SQLite.dll_2"/>
+    <ROW ProjectId="{bae2fd76-1fbb-484b-8808-793e142e37cc}" ProjectName="DataPullerManager" OutputGroup="References" OutputFile="System.Data.SQLite.EF6.dll_2"/>
+    <ROW ProjectId="{bae2fd76-1fbb-484b-8808-793e142e37cc}" ProjectName="DataPullerManager" OutputGroup="References" OutputFile="System.Data.SQLite.Linq.dll_2"/>
+    <ROW ProjectId="{bae2fd76-1fbb-484b-8808-793e142e37cc}" ProjectName="DataPullerManager" OutputGroup="References" OutputFile="DevExpress.Data.v17.2.dll_2"/>
+    <ROW ProjectId="{bae2fd76-1fbb-484b-8808-793e142e37cc}" ProjectName="DataPullerManager" OutputGroup="References" OutputFile="DevExpress.Xpo.v17.2.dll_2"/>
+    <ROW ProjectId="{bae2fd76-1fbb-484b-8808-793e142e37cc}" ProjectName="DataPullerManager" OutputGroup="References" OutputFile="System.ComponentModel.Annotations.dll_2"/>
+    <ROW ProjectId="{3d37783a-b86f-4dbc-bb5c-483c87b07115}" ProjectName="WindowsServiceTestShell" OutputGroup="PrimaryOutput" OutputFile="WindowsServiceTestShell.exe" OutputFileShortcut="WindowsServiceTestShell"/>
+    <ROW ProjectId="{3d37783a-b86f-4dbc-bb5c-483c87b07115}" ProjectName="WindowsServiceTestShell" OutputGroup="PrimaryOutput" OutputFile="WindowsServiceTestShell.exe.config"/>
+    <ROW ProjectId="{3d37783a-b86f-4dbc-bb5c-483c87b07115}" ProjectName="WindowsServiceTestShell" OutputGroup="References" OutputFile="EntityFramework.dll_3"/>
+    <ROW ProjectId="{3d37783a-b86f-4dbc-bb5c-483c87b07115}" ProjectName="WindowsServiceTestShell" OutputGroup="References" OutputFile="EntityFramework.SqlServer.dll_3"/>
+    <ROW ProjectId="{3d37783a-b86f-4dbc-bb5c-483c87b07115}" ProjectName="WindowsServiceTestShell" OutputGroup="References" OutputFile="System.Data.SQLite.dll_3"/>
+    <ROW ProjectId="{3d37783a-b86f-4dbc-bb5c-483c87b07115}" ProjectName="WindowsServiceTestShell" OutputGroup="References" OutputFile="System.Data.SQLite.EF6.dll_3"/>
+    <ROW ProjectId="{3d37783a-b86f-4dbc-bb5c-483c87b07115}" ProjectName="WindowsServiceTestShell" OutputGroup="References" OutputFile="System.Data.SQLite.Linq.dll_3"/>
+    <ROW ProjectId="{8ff3a1d8-2e08-417d-a8b5-c69944675348}" ProjectName="WindowsServiceTestShellManager" OutputGroup="PrimaryOutput" OutputFile="WindowsServiceTestShellManager.exe" OutputFileShortcut="WindowsServiceTestShellManager"/>
+    <ROW ProjectId="{8ff3a1d8-2e08-417d-a8b5-c69944675348}" ProjectName="WindowsServiceTestShellManager" OutputGroup="PrimaryOutput" OutputFile="WindowsServiceTestShellManager.exe.config"/>
+  </COMPONENT>
+</DOCUMENT>
